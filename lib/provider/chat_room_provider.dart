@@ -10,7 +10,7 @@ class ChatRoom with ChangeNotifier {
   ChatRoom(this.context);
 
   String sessionId = '';
-  String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuZXd0b24yMTQ5IiwiZXhwIjoxNzI5NDMyNTk5fQ.cFurjQH81PAJWs3U0op6QZOyKSOkGBVm5UHZhNrrYoo";
+  String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJuZXd0b24yMTQ5IiwiZXhwIjoxNzI5NTUzODY0fQ.D5PfsbPEO5GLP9yhHaDjZxw4cD_V4hiRWU7vfjMnyJA";
 
   void setSessionId(String id) {
     sessionId = id;

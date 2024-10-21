@@ -1,16 +1,18 @@
 # wiser
 
-A new Flutter project.
+Stock Analyser Bot 
 
-## Getting Started
+## Some of the Screens
 
-This project is a starting point for a Flutter application.
+- Auth Screen
+![Project screenshot](./images/1.png)
 
-A few resources to get you started if this is your first Flutter project:
+- Home Screen
+![Project screenshot](./images/2.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Chat Screen
+![Project screenshot](./images/3.png)
+![Project screenshot](./images/4.png) ![Project screenshot](./images/5.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Settings Screen
+![Project screenshot](./images/6.png)

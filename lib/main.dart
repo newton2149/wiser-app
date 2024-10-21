@@ -30,7 +30,8 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (context) => ChatRoom(context)),
         ChangeNotifierProvider(create: (context) => ChatProvider()),
-        ChangeNotifierProvider.value(value: dbProvider), // Use the initialized DbProvider
+        ChangeNotifierProvider.value(
+            value: dbProvider), // Use the initialized DbProvider
       ],
       child: MaterialApp(
         title: 'Wiser',
@@ -54,7 +55,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         debugShowCheckedModeBanner: false,
-        home: HomeScreen(),
+        home: AuthScreen(),
         routes: {
           HomeScreen.routeName: (context) => HomeScreen(),
           SplashScreen.routeName: (context) => const SplashScreen(),
